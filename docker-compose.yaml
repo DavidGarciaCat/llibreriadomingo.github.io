@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+    nodejs:
+        container_name: llibreriadomingo-nodejs
+        image: node:lts-slim
+        working_dir: /opt/project
+        command: >
+            sh -c "npm install && npm run dev"
+        restart: unless-stopped
+        ports:
+            - '8201:3000'
+        volumes:
+            - ./:/opt/project:cached
