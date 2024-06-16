@@ -19,27 +19,27 @@ export default function TimeTable() {
                             <ul className="list-unstyled list-hours mb-5 text-left mx-auto">
                                 <li className="list-unstyled-item list-hours-item d-flex">
                                     Dilluns
-                                    <span className="ml-auto">9:00 a 13:00 - 16:30 a 20:00</span>
+                                    <span className="ml-auto">9:00 a 13:00 - 17:00 a 20:00</span>
                                 </li>
                                 <li className="list-unstyled-item list-hours-item d-flex">
                                     Dimarts
-                                    <span className="ml-auto">9:00 a 13:00 - 16:30 a 20:00</span>
+                                    <span className="ml-auto">9:00 a 13:00 - 17:00 a 20:00</span>
                                 </li>
                                 <li className="list-unstyled-item list-hours-item d-flex">
                                     Dimecres
-                                    <span className="ml-auto">9:00 a 13:00 - 16:30 a 20:00</span>
+                                    <span className="ml-auto">9:00 a 13:00 - 17:00 a 20:00</span>
                                 </li>
                                 <li className="list-unstyled-item list-hours-item d-flex">
                                     Dijous
-                                    <span className="ml-auto">9:00 a 13:00 - 16:30 a 20:00</span>
+                                    <span className="ml-auto">9:00 a 13:00 - 17:00 a 20:00</span>
                                 </li>
                                 <li className="list-unstyled-item list-hours-item d-flex">
                                     Divendres
-                                    <span className="ml-auto">9:00 a 13:00 - 16:30 a 20:00</span>
+                                    <span className="ml-auto">9:00 a 13:00 - 17:00 a 20:00</span>
                                 </li>
                                 <li className="list-unstyled-item list-hours-item d-flex">
                                     Dissabte
-                                    <span className="ml-auto">9:30 a 13:00 - 17:30 a 20:00</span>
+                                    <span className="ml-auto">Tancat</span>
                                 </li>
                                 <li className="list-unstyled-item list-hours-item d-flex">
                                     Diumenge
