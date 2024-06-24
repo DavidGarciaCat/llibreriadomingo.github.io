@@ -1,12 +1,11 @@
 {
-  "name": "llibreria-domingo-nextjs",
-  "version": "0.1.0",
+  "name": "llibreria-domingo",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 8201",
-    "static": "next build && touch ./out/.nojekyll && echo 'www.llibreriadomingo.com' > ./out/CNAME",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
