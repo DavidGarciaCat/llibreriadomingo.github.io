@@ -81,6 +81,10 @@ export default function RootLayout({
     <Script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></Script>
     <Script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></Script>
 
+    <Script defer
+            src="https://cloud.umami.is/script.js"
+            data-website-id="7d8f11f0-64c5-4ecc-a06d-845ace3f0805" />
+
     </body>
     </html>
   )
