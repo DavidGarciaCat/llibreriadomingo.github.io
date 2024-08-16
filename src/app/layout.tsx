@@ -8,6 +8,7 @@ import { Inter } from 'next/font/google'
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Script from "next/script";
+import {Analytics} from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -84,6 +85,8 @@ export default function RootLayout({
     <Script defer
             src="https://cloud.umami.is/script.js"
             data-website-id="7d8f11f0-64c5-4ecc-a06d-845ace3f0805" />
+
+    <Analytics />
 
     </body>
     </html>
