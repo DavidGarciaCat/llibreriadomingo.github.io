@@ -39,7 +39,7 @@ export default function TimeTable() {
                                 </li>
                                 <li className="list-unstyled-item list-hours-item d-flex">
                                     Dissabte
-                                    <span className="ml-auto">9:30 a 13:00</span>
+                                    <span className="ml-auto">9:30 a 13:00 - 17:30 a 20:00</span>
                                 </li>
                                 <li className="list-unstyled-item list-hours-item d-flex">
                                     Diumenge
