@@ -1,4 +1,22 @@
 import type {Metadata} from 'next'
+import imatgeAgendesJpg from "../../images/jpg/agendes.jpg"
+import imatgeFotocopiesJpg from "../../images/jpg/fotocopies.jpg"
+import imatgeLlibresJpg from "../../images/jpg/llibres.jpg"
+import imatgeLotoCatalunyaJpg from "../../images/jpg/loto-catalunya-grossa.jpg"
+import imatgeMaterialEscolarJpg from "../../images/jpg/material-escolar.jpg"
+import imatgePapereriaJpg from "../../images/jpg/papereria.jpg"
+import imatgeProductesArtJpg from "../../images/jpg/productes-art.jpg"
+import imatgeRegalJpg from "../../images/jpg/regal.jpg"
+import imatgeRevetllaJpg from "../../images/jpg/revetlla.jpg"
+import imatgeAgendesWebp from "../../images/webp/agendes.webp"
+import imatgeFotocopiesWebp from "../../images/webp/fotocopies.webp"
+import imatgeLlibresWebp from "../../images/webp/llibres.webp"
+import imatgeLotoCatalunyaWebp from "../../images/webp/loto-catalunya-grossa.webp"
+import imatgeMaterialEscolarWebp from "../../images/webp/material-escolar.webp"
+import imatgePapereriaWebp from "../../images/webp/papereria.webp"
+import imatgeProductesArtWebp from "../../images/webp/productes-art.webp"
+import imatgeRegalWebp from "../../images/webp/regal.webp"
+import imatgeRevetllaWebp from "../../images/webp/revetlla.webp"
 
 export const metadata: Metadata = {
     title: 'Productes • Llibreria Domingo • Des de 1943',
@@ -19,8 +37,9 @@ export default function Product() {
                             </div>
                         </div>
                         <picture>
-                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet="images/webp/revetlla.webp" type="image/webp" />
-                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/jpg/revetlla.jpg" alt="" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeRevetllaWebp.src} type="image/webp" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeRevetllaJpg.src} type="image/jpeg" />
+                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={imatgeRevetllaJpg.src} alt="" />
                         </picture>
                         <div className="product-item-description d-flex mr-auto">
                             <div className="bg-faded p-5 rounded">
@@ -47,8 +66,9 @@ export default function Product() {
                             </div>
                         </div>
                         <picture>
-                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet="images/webp/loto-catalunya-grossa.webp" type="image/webp" />
-                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/jpg/loto-catalunya-grossa.jpg" alt="" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeLotoCatalunyaWebp.src} type="image/webp" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeLotoCatalunyaJpg.src} type="image/jpeg" />
+                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={imatgeLotoCatalunyaJpg.src} alt="" />
                         </picture>
                         <div className="product-item-description d-flex ml-auto">
                             <div className="bg-faded p-5 rounded">
@@ -73,8 +93,9 @@ export default function Product() {
                             </div>
                         </div>
                         <picture>
-                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet="images/webp/material-escolar.webp" type="image/webp" />
-                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/jpg/material-escolar.jpg" alt="" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeMaterialEscolarWebp.src} type="image/webp" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeMaterialEscolarJpg.src} type="image/jpeg" />
+                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={imatgeMaterialEscolarJpg.src} alt="" />
                         </picture>
                         <div className="product-item-description d-flex mr-auto">
                             <div className="bg-faded p-5 rounded">
@@ -99,8 +120,9 @@ export default function Product() {
                             </div>
                         </div>
                         <picture>
-                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet="images/webp/llibres.webp" type="image/webp" />
-                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/jpg/llibres.jpg" alt="" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeLlibresWebp.src} type="image/webp" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeLlibresJpg.src} type="image/jpeg" />
+                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={imatgeLlibresJpg.src} alt="" />
                         </picture>
                         <div className="product-item-description d-flex ml-auto">
                             <div className="bg-faded p-5 rounded">
@@ -124,8 +146,9 @@ export default function Product() {
                             </div>
                         </div>
                         <picture>
-                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet="images/webp/papereria.webp" type="image/webp" />
-                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/jpg/papereria.jpg" alt="" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgePapereriaWebp.src} type="image/webp" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgePapereriaJpg.src} type="image/jpeg" />
+                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={imatgePapereriaJpg.src} alt="" />
                         </picture>
                         <div className="product-item-description d-flex mr-auto">
                             <div className="bg-faded p-5 rounded">
@@ -150,8 +173,9 @@ export default function Product() {
                             </div>
                         </div>
                         <picture>
-                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet="images/webp/agendes.webp" type="image/webp" />
-                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/jpg/agendes.jpg" alt="" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeAgendesWebp.src} type="image/webp" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeAgendesJpg.src} type="image/jpeg" />
+                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={imatgeAgendesJpg.src} alt="" />
                         </picture>
                         <div className="product-item-description d-flex ml-auto">
                             <div className="bg-faded p-5 rounded">
@@ -175,8 +199,9 @@ export default function Product() {
                             </div>
                         </div>
                         <picture>
-                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet="images/webp/fotocopies.webp" type="image/webp" />
-                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/jpg/fotocopies.jpg" alt="" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeFotocopiesWebp.src} type="image/webp" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeFotocopiesJpg.src} type="image/jpeg" />
+                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={imatgeFotocopiesJpg.src} alt="" />
                         </picture>
                         <div className="product-item-description d-flex mr-auto">
                             <div className="bg-faded p-5 rounded">
@@ -199,8 +224,9 @@ export default function Product() {
                             </div>
                         </div>
                         <picture>
-                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet="images/webp/regal.webp" type="image/webp" />
-                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/jpg/regal.jpg" alt="" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeRegalWebp.src} type="image/webp" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeRegalJpg.src} type="image/jpeg" />
+                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={imatgeRegalJpg.src} alt="" />
                         </picture>
                         <div className="product-item-description d-flex ml-auto">
                             <div className="bg-faded p-5 rounded">
@@ -225,8 +251,9 @@ export default function Product() {
                             </div>
                         </div>
                         <picture>
-                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/webp/productes-art.webp" type="image/webp" />
-                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/jpg/productes-art.jpg" alt="" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeProductesArtWebp.src} type="image/webp" />
+                            <source className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" srcSet={imatgeProductesArtJpg.src} type="image/jpeg" />
+                            <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={imatgeProductesArtJpg.src} alt="" />
                         </picture>
                         <div className="product-item-description d-flex mr-auto">
                             <div className="bg-faded p-5 rounded">

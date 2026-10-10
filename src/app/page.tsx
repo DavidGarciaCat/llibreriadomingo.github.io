@@ -1,4 +1,6 @@
 import type {Metadata} from 'next'
+import imageJpg from "../images/jpg/llibreria-domingo.jpg"
+import imageWebp from "../images/webp/llibreria-domingo.webp"
 
 export const metadata: Metadata = {
     title: 'Llibreria Domingo • Des de 1943',
@@ -9,8 +11,9 @@ export default function Home() {
         <section className="page-section about-heading">
             <div className="container">
                 <picture>
-                    <source className="img-fluid rounded about-heading-img mb-3 mb-lg-0" srcSet="images/webp/llibreria-domingo.webp" type="image/webp" />
-                    <img className="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="images/jpg/llibreria-domingo.jpg" alt="" />
+                    <source className={`img-fluid rounded about-heading-img mb-3 mb-lg-0`} srcSet={imageWebp.src} type="image/webp" />
+                    <source className={`img-fluid rounded about-heading-img mb-3 mb-lg-0`} srcSet={imageJpg.src} type="image/jpeg" />
+                    <img className={`img-fluid rounded about-heading-img mb-3 mb-lg-0`} src={imageJpg.src} alt="" />
                 </picture>
                 <div className="about-heading-content">
                     <div className="row">
