@@ -6,7 +6,7 @@ services:
         image: node:lts-slim
         working_dir: /opt/project
         command: >
-            sh -c "npm install && npm run dev"
+            sh -c "npm ci && npm run dev"
         restart: unless-stopped
         ports:
             - '8201:3000'
