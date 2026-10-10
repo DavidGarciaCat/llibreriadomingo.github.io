@@ -18,8 +18,8 @@ export default function RootLayout({ children }: Props) {
     const currentYear = (new Date()).getFullYear();
 
     return (
-        <html lang="ca" data-scroll-behavior="smooth">
-        <body className={`${inter.className} ${raleway.className}`}>
+        <html lang="ca" data-scroll-behavior="smooth" suppressHydrationWarning>
+        <body className={`${inter.className} ${raleway.className}`} suppressHydrationWarning>
         <h1 className="site-heading text-center text-white d-none d-lg-block">
             <span className="site-heading-lower">Llibreria Domingo</span>
             <span className="site-heading-upper text-primary mb-3">Des del 1943</span>
