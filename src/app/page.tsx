@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type {Metadata} from 'next'
 
 export const metadata: Metadata = {
     title: 'Llibreria Domingo • Des de 1943',
